@@ -23,3 +23,6 @@ go.work.sum
 
 # env file
 .env
+
+# These are private to each project
+mappings.json
