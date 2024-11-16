@@ -1,6 +1,12 @@
-# ZynDirection
+# ZynDirection: insanely lightweight URL shortener
 
-**ZynDirection** is an insanely lightweight, pure-Golang HTTP server with one purpose: **serve URL redirects on Google Cloud Run** based off JSON directives in a Cloud Storage bucket.
+<div align="center">
+ 
+![zyndirection](https://github.com/user-attachments/assets/9c16e9ce-f75f-4098-8b08-024da5d3d448)
+
+</div>
+
+### **ZynDirection** is a single-script, pure-Golang HTTP server with one purpose: **serve URL redirects on Google Cloud Run** based off JSON directives in a Cloud Storage bucket.
 
 Using only 128MB of RAM and a quarter of a vCPU.
 
@@ -50,11 +56,11 @@ gcloud builds submit --async --tag <GCP-REGION>-docker.pkg.dev/<PROJECT-NAME>/zy
 
 ## Authors
 
-**ZynDirection** was originally built as an internal tool for HFG Ventures LLC. It has no third-party Golang dependencies except for the [Google Cloud Go Client Libraries](https://cloud.google.com/go/docs/reference).
+**ZynDirection** was originally built as an internal tool for HFG Ventures LLC. It has no third-party Golang dependencies, except for the [Google Cloud Client Libraries for Go](https://cloud.google.com/go/docs/reference).
 
 ## License
 
 **ZynDirection** is licensed under the Apache License, Version 2.0. You may not use the files in this repository except in compliance with the License. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0), and a copy is included as [the LICENSE file in the root directory of this repository](LICENSE). Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ---
-Copyright © Herbert F. Gilman _a.k.a._ HFG Ventures LLC. 2024. See [the NOTICE file](NOTICE.md) for further copyright and licensing information.
+Copyright © 2024 Herbert F. Gilman _a.k.a._ HFG Ventures LLC. See [the NOTICE file](NOTICE.md) for further copyright and licensing information.
