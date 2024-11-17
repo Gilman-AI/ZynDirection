@@ -28,7 +28,7 @@ I open-sourced this mainly because it's so mind-bogglingly lightweight—smaller
     * [TLS negotiation _a.k.a._ reverse proxying](https://cloud.google.com/run/docs/triggering/https-request), and
     * [DDoS protection](https://cloud.google.com/run/docs/securing/security).
 
-* Google Cloud Storage, another “serverless” GCP offering that [with a truly global, massively-replicated storage network](https://cloud.google.com/storage/docs/locations).
+* Google Cloud Storage, another “serverless” GCP product which offers [a truly global, massively-replicated storage network](https://cloud.google.com/storage/docs/locations).
 
   * Unlike almost all other cloud systems, [GCS only bills for storage—not compute](https://cloud.google.com/storage/pricing).
 
